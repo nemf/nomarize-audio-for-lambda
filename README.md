@@ -25,7 +25,7 @@ This AWS Lambda function automatically normalizes the volume of audio files (MKV
    - Create a Lambda Layer containing the FFmpeg binary.
    - Attach this layer to your Lambda function.
 4. Configure the Lambda function:
-   - Set the runtime to Python 3.8 or later.
+   - Set the runtime to Python 3.9 or later.
    - Increase the timeout to at least 1 minute (adjust based on your average file size).
    - Increase the memory allocation if necessary (e.g., 1024 MB).
 5. Set up the IAM role for the Lambda function with the following permissions:
